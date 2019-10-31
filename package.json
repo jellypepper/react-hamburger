@@ -1,6 +1,6 @@
 {
   "name": "@tomorrow/react-hamburger",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple animated 2 or 3 stroke hambuger icon",
   "main": "dist/hamburger.js",
   "private": false,
