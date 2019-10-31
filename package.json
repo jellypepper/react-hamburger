@@ -1,0 +1,47 @@
+{
+  "name": "@tomorrow/react-hamburger",
+  "version": "0.0.0",
+  "description": "A simple animated 2 or 3 stroke hambuger icon",
+  "main": "dist/hamburger.js",
+  "private": false,
+  "scripts": {
+    "develop": "webpack-dev-server --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomorrowstudio/react-hamburger.git"
+  },
+  "author": "Tomorrow Studio (tomorrowstudio.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomorrowstudio/react-hamburger/issues"
+  },
+  "homepage": "https://github.com/tomorrowstudio/react-hamburger#readme",
+  "dependencies": {
+    "@tomorrow/bloom": "^0.2.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-hot-loader": "^4.12.0"
+  },
+  "devDependencies": {
+    "@neutrinojs/react-components": "^9.0.0-rc.3",
+    "babel-plugin-react-css-modules": "^5.2.0",
+    "cross-env": "^5.2.0",
+    "neutrino": "^9.0.0-rc.3",
+    "postcss-custom-media": "^7.0.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nesting": "^7.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "prettier": "^1.18.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.7.0",
+    "webpack-notifier": "^1.8.0"
+  }
+}

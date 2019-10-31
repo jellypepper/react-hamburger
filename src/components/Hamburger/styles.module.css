@@ -1,0 +1,46 @@
+@import "@tomorrow/bloom/modules/ui.css";
+
+.hamburger {
+  cursor: pointer;
+  font-size: var(--scale-2);
+  height: 0.5em;
+  width: 1em;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  background: currentColor;
+  transition: top 300ms 350ms var(--easing-standard),
+    transform 300ms 50ms var(--easing-standard);
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.line-top {
+  top: 0;
+}
+
+.line-middle {
+  top: 50%;
+}
+
+.line-bottom {
+  top: 100%;
+}
+
+.hamburger[data-open="true"] .line {
+  transition: top 300ms 50ms var(--easing-standard),
+    transform 300ms 350ms var(--easing-standard);
+  top: 50%;
+}
+
+.hamburger[data-open="true"] .line-top,
+.hamburger[data-open="true"] .line-middle {
+  transform: rotate(45deg);
+}
+
+.hamburger[data-open="true"] .line-bottom {
+  transform: rotate(-45deg);
+}

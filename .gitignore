@@ -1,0 +1,10 @@
+# Deps
+node_modules
+
+# Compiled
+dist
+
+# Runtime
+.env
+.DS_Store
+*.log
